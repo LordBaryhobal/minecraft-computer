@@ -36,7 +36,7 @@ The instruction set is composed of the following instructions:
 |  1 | 000001 | STORE R1 | Store content of register 1 into the address |
 |  2 | 000010 | JUMP R1 IF | Jump to address if register 1 is equal to 0 |
 |  3 | 000011 | ADD R1 | Add content at address to register 1 |
-|  4 | 000100 | << R1 | Bithisft register 1 to left |
+|  4 | 000100 | << R1 | Bitshift register 1 to left |
 |  5 | 000101 | NOT R1 | Bitwise NOT register 1 |
 |  6 | 000110 | JUMP | Jump to address |
 |  7 | 000111 | STOP | Terminate program |
@@ -44,7 +44,7 @@ The instruction set is composed of the following instructions:
 |  9 | 001001 | STORE R2 | Store content of register 2 into the address |
 | 10 | 001010 | JUMP R2 IF | Jump to address if register 2 is equal to 0 |
 | 11 | 001011 | ADD R2 | Add content at address to register 2 |
-| 12 | 001100 | << R2 | Bithisft register 2 to left |
+| 12 | 001100 | << R2 | Bitshift register 2 to left |
 | 13 | 001101 | NOT R2 | Bitwise NOT register 2 |
 | 14 | 001110 | OUT R1 | Output register 1 |
 | 15 | 001111 | OUT R2 | Output register 2 |
